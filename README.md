@@ -11,11 +11,17 @@ Abstract: The data is related with direct marketing campaigns (phone calls) of a
 Input variables:
 # bank client data:
   1 - age (numeric)
+  
   2 - job : type of job (categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')
+  
   3 - marital : marital status (categorical: 'divorced','married','single','unknown'; note: 'divorced' means divorced or widowed)
+  
   4 - education (categorical: 'basic.4y','basic.6y','basic.9y','high.school','illiterate','professional.course','university.degree','unknown')
+  
   5 - default: has credit in default? (categorical: 'no','yes','unknown')
+  
   6 - housing: has housing loan? (categorical: 'no','yes','unknown')
+  
   7 - loan: has personal loan? (categorical: 'no','yes','unknown')
 
 # related with the last contact of the current campaign:
@@ -32,7 +38,7 @@ Input variables:
 
 # social and economic context attributes
   16 - emp.var.rate: employment variation rate - quarterly indicator (numeric)
-  17 - cons.price.idx: consumer price index - monthly indicator (numeric) 
+  17 - cons.price.idx: consumer price index - monthly indicator (numeric)  
   18 - cons.conf.idx: consumer confidence index - monthly indicator (numeric) 
   19 - euribor3m: euribor 3 month rate - daily indicator (numeric)
   20 - nr.employed: number of employees - quarterly indicator (numeric)
